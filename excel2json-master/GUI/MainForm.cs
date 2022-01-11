@@ -49,7 +49,7 @@ namespace excel2json.GUI
             mCSharpTextBox = createTextBoxInTab(this.tabCSharp);
             mCSharpTextBox.Language = Language.CSharp;
 
-            //-- componet init states
+            //-- component init states
             this.comboBoxType.SelectedIndex = 0;
             this.comboBoxLowcase.SelectedIndex = 1;
             this.comboBoxHeader.SelectedIndex = 1;
