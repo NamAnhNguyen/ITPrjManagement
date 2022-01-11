@@ -126,7 +126,7 @@ namespace excel2json.GUI
             mCurrentXlsx = path;
             FileName = System.IO.Path.GetFileNameWithoutExtension(path);
 
-            //-- update ui
+            //-- update UI
             this.btnReimport.Enabled = true;
             this.labelExcelFile.Text = path;
             enableExportButtons(false);
@@ -134,7 +134,7 @@ namespace excel2json.GUI
             this.statusLabel.IsLink = false;
             this.statusLabel.Text = "Loading Excel ...";
 
-            //-- load options from ui
+            //-- load options from UI
             Program.Options options = new Program.Options();
             options.ExcelPath = path;
             options.ExportArray = this.comboBoxType.SelectedIndex == 0;
