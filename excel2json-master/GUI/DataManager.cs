@@ -66,6 +66,8 @@ namespace excel2json.GUI
         {
             mOptions = options;
 
+            string dumps_code_here = "no no no";
+
             //-- Excel File
             string excelPath = options.ExcelPath;
             string excelName = Path.GetFileNameWithoutExtension(excelPath);
